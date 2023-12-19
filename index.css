@@ -1,0 +1,350 @@
+.navlinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 20px;
+    margin-left: 50% ;
+}
+.navlinks:hover{
+    color: rgb(247, 76, 105);
+    
+}
+
+body{
+    background-color: white;
+}
+.navlink{
+list-style-type: none;
+margin: 20px;
+}
+
+
+.lien{
+    text-decoration: none;
+    color: black;
+}
+
+.bouton{
+    border-radius: 30px ;
+    border-color: pink;
+    margin-left: 15px;
+    height: 40px;
+    width: 100px;
+    background-color: white;
+}
+.bouton:hover{
+    background-color: pink;
+    cursor: pointer;
+}
+.entete{
+    margin-top: 32px;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#fatou{
+    color: rgb(247, 76, 105);
+    position: absolute;
+    padding-left: 6px;
+    
+}
+
+.texte{
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+#fsd{
+    color: rgb(237, 32, 66);
+}
+.image{
+
+width: 100%;
+max-width: 300px;
+margin-left: 232px;
+}
+#section2{
+    background-color: rgb(244, 218, 222);
+    height: 100vh;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 100px;
+}
+
+.navb, .navbi {
+    margin: 20px;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    font-size: 15px;
+    border: 3px solid pink;
+    background-color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.language-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.language-section img {
+    margin-right: 80px;
+}
+
+.language-btn, .project-btn {
+    align-self: flex-start;
+    margin-top: 20px;
+}
+
+.logo1, .logo1a, .logo1b, .logo2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px; /* Ajustez la largeur du conteneur selon vos besoins */
+    height: 100px; /* Ajustez la hauteur du conteneur selon vos besoins */
+    margin-top: 25px;
+    margin-left: 70px;
+}
+
+
+.logo1 img, .logo1a img, .logo1b img, .logo2 img {
+    max-width: 100%; 
+    max-height: 100%;
+}
+
+.logo1b{
+    margin-left: 30px;
+}
+
+.logo1a{
+    margin-left: 100px;
+}
+
+.projet{
+    margin-left: 50px;
+}
+
+.lien {
+list-style-type: none;
+padding: 20px;
+font-size: 15px;
+ 
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 30px;
+}
+.section{
+    margin-top: 10px ;
+    margin-bottom: 10px;
+    height: 100vh;
+}
+.projectimg1{
+    width: 50%;
+    transition: all 600ms ease;
+    margin-left: 25%;
+   
+
+}
+.projectimg2{
+    width: 40%;
+    transition: all 600ms ease;
+    margin-left: 25%;
+
+}
+.projectimg3{
+    width: 50%;
+    transition: all 600ms ease;
+    margin-left: 25%;
+
+}
+
+.projectwrapper:hover .projectimg{
+
+    transform: scale(1.07);
+    filter: blur(5px);
+}
+.projectwrapper{
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0px 20px 58px 0px rgb(0, 0, 0, 0.45);
+    overflow: hidden;
+    margin-bottom: 64px;
+}
+.projectwrapper:hover .projectdescription{
+    opacity: 1;
+    transform: translateY(-50%);
+    
+}
+.projectdescription-para .projectdescription-sub{
+    overflow: hidden;
+}
+.container{
+    
+    width: 100%;
+    border-radius: 20px;
+    border: 3px solid pink;
+    background-color: pink;
+    width: 80%;
+    height: 150px;
+    margin-left: 10%;
+    transform: translateY(80px);
+    
+}
+
+.bas .bas1 .but{
+    display: flex;
+}
+.texte1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.bout{
+    height: 40px;
+    width: 150px;
+    border: 2px solid rgb(213, 26, 57);
+    border-radius: 20px;
+}
+.bout:hover{
+    background-color: rgb(213, 26, 57);
+    cursor: pointer;
+    font-size: 15px;
+    transform: scale(1.2);
+}
+.bas{
+    font-size: 20px;
+}
+footer{
+    height: 0vh;
+    background-color: rgb(244, 147, 164);
+}
+.last{
+    height: 50vh;
+    background-color: rgb(244, 147, 164);
+}
+
+.ttl{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    
+    
+}
+.fa-adjust {
+    margin-left: 5%;
+}
+
+#social-media{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    margin-right: 7%;
+    margin-top:   10%;
+   
+}
+.navicon{
+    margin-left: 100px;
+    margin-top: 70px;
+}
+.fa-facebook{
+    color: rgb(241, 58, 58);
+    font-size: 30px;
+   
+}
+.fa-instagram{
+    color: rgb(246, 58, 58);
+    font-size: 30px;
+
+    
+}
+
+.fa-linkedin{
+    color:  rgb(234, 58, 58);
+    font-size: 30px;
+    
+}
+
+.fa-snapchat{
+    color:  rgb(237, 59, 59);
+    font-size: 30px;
+    
+}
+
+.liens{
+    padding-top: 60px;
+
+}
+
+
+.project_list {
+    list-style: none;
+}
+
+
+.projectwrapper {
+    position: relative;
+  }
+  
+  .projectimg1 {
+    max-width: 100%;
+    display: block;
+    transition: opacity 0.3s;
+  }
+  
+  .overlay-description {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Centrage vertical */
+  }
+  
+  .projectwrapper:hover .projectimg1 {
+    opacity: 0.7;
+  }
+  
+  .projectwrapper:hover .overlay-description {
+    display: flex;
+    opacity: 1;
+  }
+
+  .projectdescription{
+    margin-left: 25%;
+  }
+  .projectdescription-sub{
+    margin-left: 25%;
+
+  }
+
+  
